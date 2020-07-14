@@ -2,6 +2,10 @@ let express = require('express');
 
 let app = express();
 
+if (process.env.node_env === 'test') {
+    require('dotenv').config();
+}
+
 
 app.listen(5711, async (err) => {
     if (!err) {
