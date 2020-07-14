@@ -1,0 +1,2 @@
+1.in windows you can set port by using SET PORT=PORT_NUMBER node server.js(in our case it is app.js)
+2.in Unix and Mac ,Ubantu you can use PORT=PORT_NUMBER node server.js(in our case it is app.js).

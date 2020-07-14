@@ -5,6 +5,6 @@ let app = express();
 
 app.listen(5711, async (err) => {
     if (!err) {
-        console.log('server is running');
+        console.log('server is running on ' + process.env.PORT);
     }
 });
