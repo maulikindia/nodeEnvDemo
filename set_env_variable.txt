@@ -1,2 +1,3 @@
 1.in windows you can set port by using SET PORT=PORT_NUMBER node server.js(in our case it is app.js)
 2.in Unix and Mac ,Ubantu you can use PORT=PORT_NUMBER node server.js(in our case it is app.js).
+3.If we want to not import dotenv package and use env variable in app code ,we can also import it from command line by typing = node -r dotenv/config app.js .

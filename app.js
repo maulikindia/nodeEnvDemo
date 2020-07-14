@@ -12,6 +12,7 @@ let app = express();
 
 let config=require('dotenv').config()
 
+
 console.log(process.env.port);
 console.log(process.env.node_env);
 app.listen(5711, async (err) => {
